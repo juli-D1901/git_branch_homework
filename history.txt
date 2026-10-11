@@ -1,0 +1,36 @@
+cd C:\Users\boger\Desktop
+git clone https://github.com/juli-D1901/git_branch_homework
+cd git_branch_homework
+ git status
+git branch
+ * main
+git switch -c feature
+git branch
+echo "# Git Branch Homework" > README.md
+echo "*.log" > .gitignore
+ls -la
+ ls -la
+git add README.md .gitignore
+ git status
+git commit -m "Add README and gitignore"
+git log --oneline
+git branch
+git push -u origin feature
+git branch -a
+git push -u origin feature
+git commit --amend -m "Add README and gitignore ammend"
+git push --force-with-lease
+git log --oneline -1
+git commit --amend -m "Add README and gitignore ammend"
+git push --force-with-lease
+git log --oneline -1
+git switch main
+git merge feature
+git push origin main
+git switch -c main
+ git branch
+git push -u origin main
+ git merge feature
+history > history.txt
+ ls
+doskey /history > history.txt
