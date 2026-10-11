@@ -34,3 +34,10 @@ git push -u origin main
 history > history.txt
  ls
 doskey /history > history.txt
+type history.txt
+git add history.txt
+git commit -m "Add command history"
+git push origin main
+git status
+ git branch
+doskey /history > history.txt
